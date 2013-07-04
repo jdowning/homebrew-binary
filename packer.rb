@@ -2,6 +2,7 @@ require 'formula'
 
 class Packer < Formula
   homepage 'http://www.packer.io'
+  version '0.1.4'
 
   if Hardware.is_64_bit?
     url 'https://dl.bintray.com/mitchellh/packer/0.1.4_darwin_amd64.zip'
