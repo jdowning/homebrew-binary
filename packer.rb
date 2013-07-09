@@ -2,14 +2,14 @@ require 'formula'
 
 class Packer < Formula
   homepage 'http://www.packer.io'
-  version '0.1.4'
+  version '0.1.5'
 
   if Hardware.is_64_bit?
-    url 'https://dl.bintray.com/mitchellh/packer/0.1.4_darwin_amd64.zip'
-    sha1 'c70deaf2b2532414171c8ceb5df6f845d45ad77a'
+    url 'https://dl.bintray.com/mitchellh/packer/0.1.5_darwin_amd64.zip'
+    sha1 '4696d29061e2483352f8a446c9228a726cc77950'
   else
-    url 'https://dl.bintray.com/mitchellh/packer/0.1.4_darwin_386.zip'
-    sha1 '082d3e510f09467a9e1bc6439e0a061195dbb5ff'
+    url 'https://dl.bintray.com/mitchellh/packer/0.1.5_darwin_386.zip'
+    sha1 'bf79b92b5296625f4dec5edd4153f88af480901d'
   end
 
   def install
